@@ -1,6 +1,6 @@
 #include "lib.h"
 
-bool carattre(char &a){
+bool carattere(char &a){
 if(a>64 && a<91){
 a = a + 32;
   return true;
