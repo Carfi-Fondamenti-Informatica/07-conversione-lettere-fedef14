@@ -10,7 +10,7 @@ int main(){
   b = carattere(&a);
   
   if(b==1){
-  cout << a << endl;
+  cout << &a << endl;
   } else{
   cout << "errore" << endl;
   }
