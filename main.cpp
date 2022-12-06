@@ -7,7 +7,7 @@ int main(){
   char a;
   cin >> a;
   
-  if(carattere(a)){
+  if(carattere(&a)){
   cout << a << endl;
   } else{
   cout << "errore" << endl;
