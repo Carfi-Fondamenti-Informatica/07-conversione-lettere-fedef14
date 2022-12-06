@@ -5,9 +5,11 @@ using namespace std;
 int main(){
   
   char a;
+  bool b;
   cin >> a;
+  b = carattere(&a);
   
-  if(carattere(&a)){
+  if(b==1){
   cout << a << endl;
   } else{
   cout << "errore" << endl;
