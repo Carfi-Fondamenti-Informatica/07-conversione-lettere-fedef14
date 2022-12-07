@@ -4,13 +4,12 @@ using namespace std;
 
 int main(){
   
-  char a;
-  bool b;
+  char a = 0;
   cin >> a;
-  b = carattere(&a);
+
   
-  if(b==1){
-  cout << &a << endl;
+  if(carattere(a)==1){
+  cout << a << endl;
   } else{
   cout << "errore" << endl;
   }
